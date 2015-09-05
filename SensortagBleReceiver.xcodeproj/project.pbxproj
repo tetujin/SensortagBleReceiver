@@ -14,6 +14,7 @@
 		16A2C3891B9A86DE00D19190 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A2C3881B9A86DE00D19190 /* Images.xcassets */; };
 		16A2C38C1B9A86DE00D19190 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A2C38A1B9A86DE00D19190 /* LaunchScreen.xib */; };
 		16A2C3981B9A86DE00D19190 /* SensortagBleReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A2C3971B9A86DE00D19190 /* SensortagBleReceiverTests.m */; };
+		16A2C3A21B9A872F00D19190 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A2C3A11B9A872F00D19190 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		16A2C3911B9A86DE00D19190 /* SensortagBleReceiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensortagBleReceiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A2C3961B9A86DE00D19190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A2C3971B9A86DE00D19190 /* SensortagBleReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensortagBleReceiverTests.m; sourceTree = "<group>"; };
+		16A2C3A11B9A872F00D19190 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A2C3A21B9A872F00D19190 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		16A2C36F1B9A86DE00D19190 = {
 			isa = PBXGroup;
 			children = (
+				16A2C3A11B9A872F00D19190 /* CoreBluetooth.framework */,
 				16A2C37A1B9A86DE00D19190 /* SensortagBleReceiver */,
 				16A2C3941B9A86DE00D19190 /* SensortagBleReceiverTests */,
 				16A2C3791B9A86DE00D19190 /* Products */,
@@ -299,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SensortagBleReceiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SensortagBleReceiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
