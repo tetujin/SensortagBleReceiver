@@ -11,8 +11,10 @@ This is a sample iOS application for connecting SensorTag (CC2650) via BLE.
 6. The sensor data from SensorTag will be displayed on the iOS device
 
 ## Links
-- [CC2650 SensorTag User's Guide](http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User's_Guide#Movement_Sensor)
-- [CC2650 SensorTag Website on Texas Instruments](http://www.ti.com/tool/cc2650stk)
+- [CC2650 SensorTag - Device Information](http://www.ti.com/sensortag)
+- [CC2650 SensorTag - User's Guide](http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User's_Guide#Movement_Sensor)
+- [CC2650 SensorTag - Website on Texas Instruments](http://www.ti.com/tool/cc2650stk)
+
 
 ## License
 The MIT License (MIT)
