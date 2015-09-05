@@ -1,5 +1,5 @@
 # SensortagBleReceiver
-This is a sample iOS application for connecting SensorTag (CC2650) via BLE.
+This is a sample iOS application for connecting SensorTag (CC2650) to iOS devices via BLE.
 
 ## How to use
 1. Get this project (SensortagBleReceiver) by using git command as follow  
